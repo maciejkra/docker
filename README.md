@@ -14,13 +14,13 @@ This is a fully functional Jenkins server.
 # Usage
 
 ```
-docker run -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts-jdk11
+docker run -d -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts-jdk11
 ```
 
 NOTE: read the section [_Connecting agents_](#connecting-agents) below for the role of the `50000` port mapping.
 
 This will store the workspace in `/var/jenkins_home`.
-All Jenkins data lives in there - including plugins and configuration.
+All Jenkins dabvnvcxzcvbta lives in there - including plugins and configuration.
 You will probably want to make that an explicit volume so you can manage it and attach to another container for upgrades :
 
 ```
