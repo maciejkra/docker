@@ -13,7 +13,7 @@ current_arch := $(shell uname -m)
 export ARCH ?= $(shell case $(current_arch) in (x86_64) echo "amd64" ;; (i386) echo "386";; (aarch64|arm64) echo "arm64" ;; (armv6*) echo "arm/v6";; (armv7*) echo "arm/v7";; (ppc64*|s390*|riscv*) echo $(current_arch);; (*) echo "UNKNOWN-CPU";; esac)
 
 all: shellcheck build test
-
+rt.kjhgfdgh,gfdsfghmjhgfdsfgnm
 # Set to 'true' to disable parellel tests
 DISABLE_PARALLEL_TESTS ?= false
 
